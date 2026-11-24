@@ -30,7 +30,7 @@ env:
   TERRAFORM_VERSION: "1.15.8"
   AWS_REGION: us-east-1
   # Not a secret: CD stops if the lab credentials belong to any other account.
-  EXPECTED_AWS_ACCOUNT_ID: "280393174435"
+  EXPECTED_AWS_ACCOUNT_ID: "057868876852"
   SUMMARY: node scripts/ci/report-summary.mjs
 
 jobs:
